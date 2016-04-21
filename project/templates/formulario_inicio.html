@@ -1,0 +1,78 @@
+<html>
+
+<body bgcolor="#cdc0b0" text="black" link="white" alink="gainsboro" vlink="white">
+
+<!-- Ends the date place (this wasn't a table) -->
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr><td>
+
+<!-- A title bar should go here ... -->
+<td width="100%">
+<table bgcolor="black" width="100%" cellspacing="8" cellpadding="0"  border="0">
+<tr><td>
+<table bgcolor="white" width="100%" cellspacing="2" cellpadding="10" border="0">
+<td align="center" valign="top">
+
+<b>
+<font face="helvetica,courier">
+· Aplicacion Web AcortaURLS · &nbsp;&nbsp;&nbsp;
+</b>
+</font>
+</td></table>
+	</tr></td></table></td>
+<!-- Ends the title blockz -->
+</tr></td></table>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+
+<p>&nbsp;</p>
+
+<!-- Navigation bar -->
+
+<!-- The label goes here -->
+<td width="0%" valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr><td valign="top">
+<table width="*%" cellspacing="0" cellpadding="4" border="0">
+<tr><td bgcolor="black" align="center">
+
+  <font face="smooth,shine" color="white">
+
+  F<br>
+  0<br>
+  R<br>
+  M<br>
+  U<br>
+  L<br>
+  A<br>
+  R<br>
+  I<br>
+  O<br>
+
+  </font>
+
+	</tr></td></table>
+	</td></table>
+<!-- Ends the label -->
+
+<td width="0%" valign="top">
+<table  width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr><td>
+<table  width="100%" cellspacing="0" cellpadding="0" border="0">
+<td align="center" valign="top">
+
+  <h1>Introduzca la URL que desea acortar</h1>
+  <form method="post">
+  {% csrf_token %}
+  <table>
+  <tr><td>URL</td>
+  <td><input type="text" name="url"/></td></tr>
+  </table>
+  <input type="submit" value="Enviar">
+  </form>
+	</td></table></td></tr></td>
+	</tr></td></table>
+
+</body><html>
